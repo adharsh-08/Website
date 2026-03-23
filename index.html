@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LearnHub - Online Courses</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <header>
+    <div class="logo">LearnHub</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#courses">Courses</a>
+      <a href="#details">Details</a>
+      <a href="#register">Register/Login</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Learn Online with LearnHub</h1>
+      <p>Web Development • Java • Python • Data Science and more</p>
+      <a href="#courses" class="btn">View Courses</a>
+    </div>
+  </section>
+
+  <section id="courses">
+    <h2>Our Courses</h2>
+    <div class="course-list">
+
+      <div class="course-item" data-key="web">
+        <img src="https://placehold.co/600x400/png?text=Web+Development" alt="Web Development">
+        <h3>Web Development</h3>
+        <p>Ms. Anjali • ₹2999 • ★ 4.8</p>
+        <button class="btn small">Details</button>
+      </div>
+
+      <div class="course-item" data-key="java">
+        <img src="https://placehold.co/600x400/png?text=Java+Programming" alt="Java">
+        <h3>Java Programming</h3>
+        <p>Mr. Ravi • ₹3499 • ★ 4.7</p>
+        <button class="btn small">Details</button>
+      </div>
+
+      <div class="course-item" data-key="python">
+        <img src="https://placehold.co/600x400/png?text=Python+Programming" alt="Python">
+        <h3>Python Programming</h3>
+        <p>Dr. Meera • ₹3299 • ★ 4.9</p>
+        <button class="btn small">Details</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="details">
+    <h2>Course Details</h2>
+    <div id="courseDetails">
+      <h3>Web Development</h3>
+      <p>Learn HTML, CSS, JavaScript, responsive design.</p>
+      <p><strong>Instructor:</strong> Ms. Anjali</p>
+      <p><strong>Duration:</strong> 8 Weeks</p>
+      <button class="btn">Enroll Now</button>
+    </div>
+  </section>
+
+  <section id="register">
+    <h2>Register or Login</h2>
+    <div class="auth-box">
+
+      <form id="registerForm">
+        <h3>Register</h3>
+        <input type="text"    id="regName"     placeholder="Name" required>
+        <input type="email"   id="regEmail"    placeholder="Email" required>
+        <input type="password" id="regPassword" placeholder="Password" required>
+        <button type="submit" class="btn">Sign Up</button>
+        <p id="regMsg"></p>
+      </form>
+
+      <form id="loginForm">
+        <h3>Login</h3>
+        <input type="email"    id="loginEmail"    placeholder="Email" required>
+        <input type="password" id="loginPassword" placeholder="Password" required>
+        <button type="submit" class="btn">Log In</button>
+        <p id="loginMsg"></p>
+      </form>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text"    id="cName"    placeholder="Your Name" required>
+      <input type="email"   id="cEmail"   placeholder="Your Email" required>
+      <textarea id="cMessage" placeholder="Message" rows="4" required></textarea>
+      <button type="submit" class="btn">Send</button>
+      <p id="contactMsg"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 LearnHub</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

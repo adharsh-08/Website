@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+    <course id="C001">
+        <title>Web Development</title>
+        <instructor>Ms. Anjali</instructor>
+        <price>2999</price>
+        <rating>4.8</rating>
+        <duration>8 Weeks</duration>
+    </course>
+    <course id="C002">
+        <title>Java Programming</title>
+        <instructor>Mr. Ravi</instructor>
+        <price>3499</price>
+        <rating>4.7</rating>
+        <duration>10 Weeks</duration>
+    </course>
+    <course id="C003">
+        <title>Python Programming</title>
+        <instructor>Dr. Meera</instructor>
+        <price>3299</price>
+        <rating>4.9</rating>
+        <duration>9 Weeks</duration>
+    </course>
+</courses>
